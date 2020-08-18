@@ -6,16 +6,17 @@ import com.qa.base.Base;
 
 public class ExtentReportNG  extends Base {
 	public static ExtentReports extent;
-	public static ExtentSparkReporter reporters;
+	public static ExtentSparkReporter reporter;
 	public static ExtentReports generateExtentReport()
 	{
-		String FilePath = System.getProperty("user.dir")+"//Reports//index.html";
-		reporters = new ExtentSparkReporter(FilePath);
-		reporters.config().setDocumentTitle("Web Automation");
-		reporters.config().setReportName("Web Results");
+		String FilePath = System.getProperty("user.dir")+"\\Reports\\index.html";
+		reporter = new ExtentSparkReporter(FilePath);
+		reporter.config().setReportName("Web Results");
+		reporter.config().setDocumentTitle("Web Automation");
+		
 		extent = new ExtentReports();
-		extent.attachReporter(reporters);
-		extent.setSystemInfo("Name", "S");
+		extent.attachReporter(reporter);
+		extent.setSystemInfo("Name", "Swetha");
 		return extent;
 	}
 	

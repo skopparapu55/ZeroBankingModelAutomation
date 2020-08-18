@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.AddPayeeTest">
+      <class name="com.qa.testcases.MoneyMapTest">
         <methods>
-          <include name="setup"/>
           <include name="tear"/>
-          <include name="AddPayee"/>
+          <include name="setup"/>
+          <include name="MoneyMapverify"/>
         </methods>
-      </class> <!-- com.qa.testcases.AddPayeeTest -->
+      </class> <!-- com.qa.testcases.MoneyMapTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

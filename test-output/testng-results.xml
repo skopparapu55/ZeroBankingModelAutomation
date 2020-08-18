@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59205" started-at="2020-08-17T17:12:07 EDT" finished-at="2020-08-17T17:13:06 EDT">
+  <suite name="Suite" duration-ms="81431" started-at="2020-08-18T17:34:07 EDT" finished-at="2020-08-18T17:35:29 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59205" started-at="2020-08-17T17:12:07 EDT" finished-at="2020-08-17T17:13:06 EDT">
-      <class name="com.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginTest@327b636c]" name="setup" is-config="true" duration-ms="6621" started-at="2020-08-17T17:12:17 EDT" finished-at="2020-08-17T17:12:23 EDT">
+    <test name="Test" duration-ms="81431" started-at="2020-08-18T17:34:07 EDT" finished-at="2020-08-18T17:35:29 EDT">
+      <class name="com.qa.testcases.MoneyMapTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.MoneyMapTest@3745e5c6]" name="setup" is-config="true" duration-ms="6761" started-at="2020-08-18T17:35:12 EDT" finished-at="2020-08-18T17:35:18 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@327b636c]" name="Login" duration-ms="1126" started-at="2020-08-17T17:12:23 EDT" data-provider="getData" finished-at="2020-08-17T17:12:24 EDT">
+        <test-method status="PASS" signature="MoneyMapverify()[pri:0, instance:com.qa.testcases.MoneyMapTest@3745e5c6]" name="MoneyMapverify" duration-ms="9634" started-at="2020-08-18T17:35:18 EDT" finished-at="2020-08-18T17:35:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoneyMapverify -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.qa.testcases.MoneyMapTest@3745e5c6]" name="tear" is-config="true" duration-ms="718" started-at="2020-08-18T17:35:28 EDT" finished-at="2020-08-18T17:35:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.qa.testcases.MoneyMapTest -->
+      <class name="com.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginTest@45dd4eda]" name="setup" is-config="true" duration-ms="6789" started-at="2020-08-18T17:34:18 EDT" finished-at="2020-08-18T17:34:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@45dd4eda]" name="Login" duration-ms="1479" started-at="2020-08-18T17:34:25 EDT" data-provider="getData" finished-at="2020-08-18T17:34:27 EDT">
           <params>
             <param index="0">
               <value>
@@ -27,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.testcases.LoginTest@327b636c]" name="close" is-config="true" duration-ms="722" started-at="2020-08-17T17:12:24 EDT" finished-at="2020-08-17T17:12:25 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.testcases.LoginTest@45dd4eda]" name="close" is-config="true" duration-ms="770" started-at="2020-08-18T17:34:27 EDT" finished-at="2020-08-18T17:34:27 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginTest@327b636c]" name="setup" is-config="true" duration-ms="6380" started-at="2020-08-17T17:12:25 EDT" finished-at="2020-08-17T17:12:31 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginTest@45dd4eda]" name="setup" is-config="true" duration-ms="6922" started-at="2020-08-18T17:34:27 EDT" finished-at="2020-08-18T17:34:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@327b636c]" name="Login" duration-ms="1198" started-at="2020-08-17T17:12:31 EDT" data-provider="getData" finished-at="2020-08-17T17:12:33 EDT">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@45dd4eda]" name="Login" duration-ms="1549" started-at="2020-08-18T17:34:34 EDT" data-provider="getData" finished-at="2020-08-18T17:34:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -51,43 +65,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.testcases.LoginTest@327b636c]" name="close" is-config="true" duration-ms="782" started-at="2020-08-17T17:12:33 EDT" finished-at="2020-08-17T17:12:33 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.testcases.LoginTest@45dd4eda]" name="close" is-config="true" duration-ms="1193" started-at="2020-08-18T17:34:36 EDT" finished-at="2020-08-18T17:34:37 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.qa.testcases.LoginTest -->
       <class name="com.qa.testcases.HomeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.HomeTest@6ab7a896]" name="setUp" is-config="true" duration-ms="8159" started-at="2020-08-17T17:12:07 EDT" finished-at="2020-08-17T17:12:15 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.HomeTest@327b636c]" name="setUp" is-config="true" duration-ms="8819" started-at="2020-08-18T17:34:07 EDT" finished-at="2020-08-18T17:34:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUp()[pri:0, instance:com.qa.testcases.HomeTest@6ab7a896]" name="verifySignUp" duration-ms="337" started-at="2020-08-17T17:12:15 EDT" finished-at="2020-08-17T17:12:15 EDT">
+        <test-method status="PASS" signature="verifySignUp()[pri:0, instance:com.qa.testcases.HomeTest@327b636c]" name="verifySignUp" duration-ms="463" started-at="2020-08-18T17:34:16 EDT" finished-at="2020-08-18T17:34:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUp -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.testcases.HomeTest@6ab7a896]" name="close" is-config="true" duration-ms="730" started-at="2020-08-17T17:12:15 EDT" finished-at="2020-08-17T17:12:16 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.testcases.HomeTest@327b636c]" name="close" is-config="true" duration-ms="717" started-at="2020-08-18T17:34:17 EDT" finished-at="2020-08-18T17:34:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.qa.testcases.HomeTest -->
       <class name="com.qa.testcases.AddPayeeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="setup" is-config="true" duration-ms="6783" started-at="2020-08-17T17:12:33 EDT" finished-at="2020-08-17T17:12:40 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="setup" is-config="true" duration-ms="6894" started-at="2020-08-18T17:34:37 EDT" finished-at="2020-08-18T17:34:44 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AddPayee()[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="AddPayee" duration-ms="4719" started-at="2020-08-17T17:12:40 EDT" finished-at="2020-08-17T17:12:45 EDT">
+        <test-method status="PASS" signature="AddPayee()[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="AddPayee" duration-ms="4614" started-at="2020-08-18T17:34:44 EDT" finished-at="2020-08-18T17:34:48 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPayee -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="tear" is-config="true" duration-ms="741" started-at="2020-08-17T17:12:45 EDT" finished-at="2020-08-17T17:12:46 EDT">
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="tear" is-config="true" duration-ms="1267" started-at="2020-08-18T17:34:48 EDT" finished-at="2020-08-18T17:34:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="setup" is-config="true" duration-ms="6338" started-at="2020-08-17T17:12:46 EDT" finished-at="2020-08-17T17:12:52 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="setup" is-config="true" duration-ms="6602" started-at="2020-08-18T17:34:50 EDT" finished-at="2020-08-18T17:34:56 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="Login" duration-ms="2952" started-at="2020-08-17T17:12:52 EDT" data-provider="getData" finished-at="2020-08-17T17:12:55 EDT">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="Login" duration-ms="3379" started-at="2020-08-18T17:34:56 EDT" data-provider="getData" finished-at="2020-08-18T17:35:00 EDT">
           <params>
             <param index="0">
               <value>
@@ -103,15 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="tear" is-config="true" duration-ms="734" started-at="2020-08-17T17:12:55 EDT" finished-at="2020-08-17T17:12:56 EDT">
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="tear" is-config="true" duration-ms="1457" started-at="2020-08-18T17:35:00 EDT" finished-at="2020-08-18T17:35:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="setup" is-config="true" duration-ms="6525" started-at="2020-08-17T17:12:56 EDT" finished-at="2020-08-17T17:13:02 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="setup" is-config="true" duration-ms="6725" started-at="2020-08-18T17:35:01 EDT" finished-at="2020-08-18T17:35:08 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="Login" duration-ms="2542" started-at="2020-08-17T17:13:02 EDT" data-provider="getData" finished-at="2020-08-17T17:13:05 EDT">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="Login" duration-ms="2945" started-at="2020-08-18T17:35:08 EDT" data-provider="getData" finished-at="2020-08-18T17:35:11 EDT">
           <params>
             <param index="0">
               <value>
@@ -127,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:com.qa.testcases.AddPayeeTest@45dd4eda]" name="tear" is-config="true" duration-ms="887" started-at="2020-08-17T17:13:05 EDT" finished-at="2020-08-17T17:13:06 EDT">
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.qa.testcases.AddPayeeTest@60611244]" name="tear" is-config="true" duration-ms="712" started-at="2020-08-18T17:35:11 EDT" finished-at="2020-08-18T17:35:12 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->

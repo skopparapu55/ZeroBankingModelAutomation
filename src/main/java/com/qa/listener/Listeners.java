@@ -1,4 +1,4 @@
-package com.qa.listeners;
+package com.qa.listener;
 
 import java.io.IOException;
 
